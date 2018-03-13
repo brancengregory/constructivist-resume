@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('/assets/leaguespartan-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('/assets/Chunkfive-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'OstrichBold';
+    src: url('/assets/ostrich-sans-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MillGoudy';
+    src: url('/assets/GoudyStM-webfont.woff') format('woff');
+}
+
+html body {
+    margin: 0;
+    height: 100%;
+    min-width: 320px;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    background-color: white;
+    background-image: circle();
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    background-color: #DE2228;
+    min-height: 150px;
+    height: 30vh;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 100%,
+        0 calc(100% - 6vh)
+    );
+    -webkit-clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 100%,
+        0 calc(100% - 6vh)
+    );
+    border-top: 10px solid black;
+}
+
+.toolbar-menu {
+    display: flex;
+    align-self: center;
+    grid-column: 1 / span 1;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.toolbar-socials {
+    display: flex;
+    min-width: 80px;
+    justify-content: space-between;
+}
+
+.toolbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    transform: translateY(-2.5vh);
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-family: 'LeagueSpartan', Fallback, sans-serif;
+    font-size: 32px;
+    border-bottom: 10px solid black;
+    padding: 5px 5px 5px 5px;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    padding: 5px 10px 0px 10px;
+    font-family: 'LeagueSpartan', Fallback, sans-serif;
+    width:fit-content;
+}
+
+p {
+    font-family: 'MillGoudy', Fallback, serif;
+}
+
+section {
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-template-columns: 50px auto;
+    grid-template-rows: auto auto;
+    text-align: left;
+}
+
+.section-icon {
+    align-self: center;
+    justify-self: center;
+    color: black;
+    font-size: 25px;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.section-title {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    width: fit-content;
+}
+
+.section-content {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+footer {
+    min-height: 100px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    margin-top: 50px;
+}
+
+.footer-content {
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

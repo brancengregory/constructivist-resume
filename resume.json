@@ -1,0 +1,133 @@
+{
+	"basics": {
+		"name": "Brancen Gregory",
+		"label": "Researcher, Programmer, Designer, Analyst",
+		"picture": "",
+		"email": "brancengregory@gmail.com",
+		"phone": "(918) 497-7776",
+		"website": "brancengregory.com",
+		"summary": "",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Tulsa",
+			"countryCode": "US",
+			"region": "Oklahoma"
+		},
+		"profiles": [
+			{
+				"network": "Github",
+				"username": "brancengregory",
+				"url": "https://github.com"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "brancengregory",
+				"url": "https://linkedin.com"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Muskogee (Creek) Nation Department of Health",
+			"location": "Sapulpa, OK",
+			"description": "",
+			"position": "Data Analyst - SBIRT",
+			"url": "",
+			"startDate": "01/2018",
+			"endDate": "Current",
+			"summary": "",
+			"highlights": [
+				"",
+				""
+			]
+		},
+		{
+			"name": "University of Tulsa School of Law"
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Green Country DSA",
+			"position": "Member/Organizer",
+			"url": "https://greencountrydsa.github.io",
+			"startDate": "2017-12-15",
+			"endDate": "Current",
+			"summary": "",
+			"highlights": [
+				"Created and manage blog"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "University of Tulsa",
+			"area": "Economics",
+			"studyType": "Bachelor of Science",
+			"startDate": "08/2012",
+			"endDate": "05/2017",
+			"gpa": "",
+			"courses": [
+				"Statistics for Engineers",
+				"Econometrics"
+			]
+		}
+	],
+	"skills": [
+		{
+			"name": "Web Development",
+			"level": "Proficient",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"Javascript"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native Speaker"
+		}
+	],
+	"interests": [
+		{
+			"name": "Books",
+			"keywords": [
+				"Science Fiction",
+				"History"
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "",
+			"reference": ""
+		}
+	],
+	"projects": [
+		{
+			"name": "CDC Vital Statistics",
+			"description": "R scripts to parse and analyze mortality data",
+			"highlights": [ 
+				"Produced analysis of alcohol related mortality by race"
+			],
+			"keywords": [
+				"CDC", "Vital Statistics", "Mortality", "R", "Health Data"
+			],
+			"startDate": "2018-02",
+			"endDate": "Current", 
+			"url": "https://github.com/brancengregory/cdc-mortality.git",
+			"roles": [ 
+				"Analyst"
+			],
+			"entity": "Muskogee (Creek) Nation",
+			"type": "toolkit"
+		}
+	],
+	"meta": {
+		"canonical": "",
+		"versions": "",
+		"lastModified": ""
+	}
+}
