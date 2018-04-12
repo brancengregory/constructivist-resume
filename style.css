@@ -82,7 +82,7 @@ header {
     align-items: center;
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-    //transform: translateY(-2.5vh);
+    /* transform: translateY(-2.5vh); */
 }
 
 main {
@@ -164,9 +164,6 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     margin-top: 50px;
-}
-
-.footer-content {
 }
 
 @media (min-width: 768px) {
