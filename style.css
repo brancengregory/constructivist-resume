@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
 @font-face {
     font-family: 'LeagueSpartan';
     src: url('/assets/leaguespartan-bold.woff') format('woff');
@@ -68,11 +70,13 @@ header {
 .toolbar-socials {
     display: flex;
     min-width: 80px;
-    justify-content: center;
+    justify-self: center;
+    color: black;
+    font-size: 25px;
 }
 
 .toolbar-socials a {
-    padding: 10px;
+    margin: 10px;
     max-height: fit-content;
 }
 
@@ -104,6 +108,11 @@ h2 {
     background-color: black;
     padding: 5px 10px 0px 10px;
     font-family: 'LeagueSpartan', Fallback, sans-serif;
+    width:fit-content;
+}
+
+h3, h4 {
+    font-family: 'Libre Baskerville', Fallback, serif;
     width:fit-content;
 }
 
@@ -144,14 +153,14 @@ section {
     grid-row: 2 / span 1;
 }
 
-.education-section {
+.education-section, .employment-section {
     padding: 10px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.education-section-title {
+.education-section-title, .employment-section-title {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid black;
