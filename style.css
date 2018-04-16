@@ -98,8 +98,9 @@ h1 {
     margin: 0;
     color: white;
     font-family: 'LeagueSpartan', Fallback, sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     border-bottom: 10px solid black;
+    margin-top: 15px;
     padding: 5px 5px 5px 5px;
 }
 
@@ -114,6 +115,7 @@ h2 {
 h3, h4 {
     font-family: 'Libre Baskerville', Fallback, serif;
     width:fit-content;
+    margin: 10px;
 }
 
 p {
@@ -153,14 +155,14 @@ section {
     grid-row: 2 / span 1;
 }
 
-.education-section, .employment-section {
+.education-section, .employment-section, .tools-section {
     padding: 10px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.education-section-title, .employment-section-title {
+.education-section-title, .employment-section-title, .tools-section-title {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid black;
