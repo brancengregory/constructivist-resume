@@ -119,7 +119,7 @@ h3, h4 {
 }
 
 p {
-    font-family: 'MillGoudy', Fallback, serif;
+    font-family: 'Libre Baskerville', Fallback, serif;
 }
 
 a {
@@ -166,6 +166,34 @@ section {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid black;
+}
+
+.skill-container {
+    display: inline-block;
+    width: 100px;
+    height: 15px;
+    background: repeating-linear-gradient(
+        to right,
+        #000,
+        #000 8%,
+        transparent 8%,
+        transparent 10%
+    ),
+    repeating-linear-gradient(
+      to right,
+      red,
+      red 16%,
+      transparent 16%,
+      transparent 20%
+    );
+
+    background-size: 200%, 100%;
+    background-position: -40%;
+    background-repeat: repeat-y;
+}
+
+li {
+    font-family: 'Libre Baskerville', Fallback, serif;
 }
 
 footer {
