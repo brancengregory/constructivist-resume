@@ -90,7 +90,7 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: minmax(20px, auto) auto minmax(20px, auto);
 }
 
 @media (min-width: 768px) {
@@ -209,13 +209,14 @@ section {
     );
 
     background-size: 200%, 100%;
-    background-position: -40%;
+    background-position: var(--skill-level);
     background-repeat: repeat-y;
 }
 
 ul {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0px;
 }
 
 @media (min-width: 768px) {
@@ -226,7 +227,7 @@ ul {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
