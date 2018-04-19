@@ -34,7 +34,7 @@ body {
     background-color: white;
 }
 
-header {
+.toolbar {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
@@ -137,6 +137,7 @@ section {
     grid-column: 2 / span 1;
     display: inline-block;
     text-align: center;
+    margin-top: 25px;
 }
 
 @media (min-width: 768px) {
